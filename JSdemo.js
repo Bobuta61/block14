@@ -1,14 +1,14 @@
-const numberArray = (1,2,3,4,5);
+// const numberArray = (1,2,3,4,5);
 
-console.log(numberArray {2})
+// console.log(numberArray.2);
 
-// const names =  ["John", "Bill", "Zack", "Zoe"];
+// // const names =  ["John", "Bill", "Zack", "Zoe"];
 
-// console.log(names);
+// // console.log(names);
 
-// const resultOfShift = names.shift();
+// // const resultOfShift = names.shift();
 
-// console.log(names);
+// // console.log(names);
 
 // console.log(resultOfShift);
 

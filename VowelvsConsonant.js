@@ -44,21 +44,112 @@
 
 // Instruction from Byron
 
-const testString = "hellow has 3 consonants and 2 vowels";
+// const testString = "hellow has 3 consonants and 2 vowels";
 
-const letters = "ae";
+// const letters = "ae";
 
-Let aeLetters = 0;
+// let aeLetters = 0;
+// let others = 0;
+
+// for(let i = 0; i < testString.length; i++){
+
+//     if(letters.indexOf(testString[i].toLowerCase()) !== -1) {
+//         aeLetters += 1;
+//     } else if (testString[i] !== " ") {
+//         others += 1;
+//     }
+// }
+
+// console.log(aeLetters);
+// console.log(others);
+
+// const myString = "hello";
+
+// const vowels = "aeiou";
+
+// let aeiouLetters = 0;
+// let others = 0;
+
+// for(let i = 0; i < myString.length; i++){
+
+//     if(vowels.indexOf(myString[i].toLowerCase()) !== -1) {
+//         aeiouLetters += 1;
+//     } else if (myString[i] !== " ") {
+//         others += 1;
+//     }
+// }
+
+// console.log(myString + " has "  + others +  " consonants" + " and " + aeiouLetters + " vowels");
+
+// const myString = "ukelele";
+
+// const vowels = "aeiou";
+
+// let aeiouLetters = 0;
+// let others = 0;
+
+// for(let i = 0; i < myString.length; i++){
+
+//     if(vowels.indexOf(myString[i].toLowerCase()) !== -1) {
+//         aeiouLetters += 1;
+//     } else if (myString[i] !== " ") {
+//         others += 1;
+//     }
+// }
+
+// console.log(myString + " has "  + others +  " consonants" + " and " + aeiouLetters + " vowels");
+
+// const myString = "awesome";
+
+// const vowels = "aeiou";
+
+// let aeiouLetters = 0;
+// let others = 0;
+
+// for(let i = 0; i < myString.length; i++){
+
+//     if(vowels.indexOf(myString[i].toLowerCase()) !== -1) {
+//         aeiouLetters += 1;
+//     } else if (myString[i] !== " ") {
+//         others += 1;
+//     }
+// }
+
+// console.log(myString + " has "  + others +  " consonants" + " and " + aeiouLetters + " vowels");
+
+// const myString = "onomonopia";
+
+// const vowels = "aeiou";
+
+// let aeiouLetters = 0;
+// let others = 0;
+
+// for(let i = 0; i < myString.length; i++){
+
+//     if(vowels.indexOf(myString[i].toLowerCase()) !== -1) {
+//         aeiouLetters += 1;
+//     } else if (myString[i] !== " ") {
+//         others += 1;
+//     }
+// }
+
+// console.log(myString + " has "  + others +  " consonants" + " and " + aeiouLetters + " vowels");
+
+const myString = "textbook";
+
+const vowels = "aeiou";
+
+let aeiouLetters = 0;
 let others = 0;
 
-for(let i = 0; i < testString.length; i++){
+for(let i = 0; i < myString.length; i++){
 
-    if(letters.indexOf(testString[i].toLowerCase()) !== -1) {
-        aeLetters += 1;
-    } else if (testString[i] !== " ") {
+    if(vowels.indexOf(myString[i].toLowerCase()) !== -1) {
+        aeiouLetters += 1;
+    } else if (myString[i] !== " ") {
         others += 1;
     }
 }
 
-console.log(aeLetters);
-console.log(others);
+console.log(myString + " has "  + others +  " consonants" + " and " + aeiouLetters + " vowels");
+
